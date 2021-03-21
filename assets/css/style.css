@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+.bg-perso-dark {
+    background-color: #251738;
+}
+
+body, a, a:hover, a:visited{
+    color: #FFFAD0;
+}
+
+.font-bebas-neue {
+    font-family: 'Bebas Neue', cursive;
+}
+
+p {
+    font-family: 'Roboto Condensed', sans-serif;
+}
