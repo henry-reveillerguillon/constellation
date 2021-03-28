@@ -5,6 +5,10 @@
     background-color: #251738;
 }
 
+body{
+    overflow: hidden;
+}
+
 body, a, a:hover, a:visited{
     color: #FFFAD0;
 }
