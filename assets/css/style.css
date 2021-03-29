@@ -6,7 +6,7 @@
 }
 
 body{
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 body, a, a:hover, a:visited{
