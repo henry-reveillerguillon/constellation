@@ -8,10 +8,11 @@
     top: 100px;
 }
 #silence1{
-    position: relative;
+    position: absolute;
     width: 87px;
     height: 87px;
     border-radius: 100px;
+    left: 13px;
     background-image: url('../img/silence1.jpg');
     background-position: center;
     background-size: 100%;
@@ -26,13 +27,13 @@
     top: 110px;  
 }
 #silence2{
-    position: relative;
+    position: absolute;
     background-color: #FFFAD0;
     width: 87px;
     height: 87px;
     border-radius: 100px;
     left: 160px;
-    top: 50px;
+    top: 175px;
     background-image: url('../img/silence2.jpg');
     background-position: center;
     background-size: 100%;
@@ -47,14 +48,24 @@
     left: 75px;
 }
 #silence3{
-    position: relative;
+    position: absolute;
     background-color: #FFFAD0;
     width: 87px;
     height: 87px;
     border-radius: 100px;
-    bottom: 40px;
+    left: 13px;
+    top: 175px;
     background-image: url('../img/silence3.jpg');
     background-position: center;
     background-size: 100%;
     border: 11px solid #FFFAD0;
+}
+#silence div:hover{
+    animation: 1s onHoverSilence;
+    animation-fill-mode: forwards;
+}
+
+@keyframes onHoverSilence{
+    from { width: 87px; height: 87px; }
+    to { width: 130px; height: 130px; }
 }
