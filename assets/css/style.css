@@ -20,3 +20,8 @@ body, a, a:hover, a:visited{
 p {
     font-family: 'Roboto Condensed', sans-serif;
 }
+
+.footerHome{
+    position: absolute;
+    bottom: -300px;
+}
