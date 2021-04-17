@@ -100,10 +100,12 @@
 #dark2{
     top: 35px;
     left: 250px;
+    background-image: url('../img/dark2.jpg');
 }
 #dark3{
     top: -50px;
     left: 500px;
+    background-image: url('../img/dark3.png');
 }
 #darkLink1-2{
     transform: rotate(-5deg);
@@ -126,6 +128,9 @@
 }
 #absence1{
     left: 300px;
+}
+#absence3{
+    background-image: url('../img/absence3.jpg');
 }
 #absenceLink1-2{
     transform: rotate(-45deg);
