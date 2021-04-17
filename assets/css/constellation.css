@@ -1,13 +1,13 @@
-#silence{
+#silence, #void{
     position: relative;
-    left: 50px;
+    left: 5vw;
 }
-#silence h3{
+#silence h3, #void h3{
     position: relative;
     left: 150px;
     top: 100px;
 }
-#silence1{
+#silence1, #void1{
     position: absolute;
     width: 87px;
     height: 87px;
@@ -18,7 +18,7 @@
     background-size: 100%;
     border: 11px solid #FFFAD0;
 }
-#link1-2{
+#silenceLink1-2, #voidLink1-2{
     background-color: #FFFAD0;
     height: 3px;
     width: 250px;
@@ -26,7 +26,7 @@
     position: relative;
     top: 110px;  
 }
-#silence2{
+#silence2, #void2{
     position: absolute;
     background-color: #FFFAD0;
     width: 87px;
@@ -39,7 +39,7 @@
     background-size: 100%;
     border: 11px solid #FFFAD0;
 }
-#link2-3{
+#silenceLink2-3, #voidLink2-3{
     background-color: #FFFAD0;
     height: 3px;
     width: 150px;
@@ -47,7 +47,7 @@
     top: 180px;
     left: 75px;
 }
-#silence3{
+#silence3, #void3{
     position: absolute;
     background-color: #FFFAD0;
     width: 87px;
@@ -60,12 +60,37 @@
     background-size: 100%;
     border: 11px solid #FFFAD0;
 }
-#silence div:hover{
-    animation: 1s onHoverSilence;
+.bubbles div:hover{
+    animation: 1s onHover;
     animation-fill-mode: forwards;
 }
 
-@keyframes onHoverSilence{
+#void h3{
+    left: 925px;
+}
+#void1{
+    left: 750px;
+}
+#void2{
+    left: 950px;
+}
+#void3{
+    left: 1200px;
+    top: 150px;
+}
+#voidLink1-2{
+    left: 750px;
+    transform: rotate(35deg);
+    top: 100px;
+}
+#voidLink2-3{
+    left: 975px;
+    width: 250px;
+    top: 170px;
+    transform: rotate(-5deg);
+}
+
+@keyframes onHover{
     from { width: 87px; height: 87px; }
     to { width: 130px; height: 130px; }
 }
