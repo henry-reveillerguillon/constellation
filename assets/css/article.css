@@ -1,0 +1,51 @@
+#pres {
+    background-color: #FFFAD0;
+    color: #251738;
+    border-radius: 56px;
+    width: 76%;
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+} 
+
+#illustration {
+    overflow: hidden;
+    border-radius: 56px;
+    height: 400px;
+}
+
+#illustration img {
+    transform: translate(-10%, -10%);
+}
+
+.source {
+    font-style: italic;
+}
+
+.prevNext {
+    background-color: #FFFAD0;
+    color: #251738;
+    width: 200px;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.prev {
+    float: right;
+}
+
+.next {
+    float: left;
+}
+
+#prevAndNext {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#similarTxt {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+}
