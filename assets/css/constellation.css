@@ -1,13 +1,13 @@
-#silence, #void{
+#silence, #void, #dark{
     position: relative;
     left: 5vw;
 }
-#silence h3, #void h3{
+#silence h3, #void h3, #dark h3{
     position: relative;
     left: 150px;
     top: 100px;
 }
-#silence1, #void1{
+#silence1, #void1, #dark1{
     position: absolute;
     width: 87px;
     height: 87px;
@@ -18,7 +18,7 @@
     background-size: 100%;
     border: 11px solid #FFFAD0;
 }
-#silenceLink1-2, #voidLink1-2{
+#silenceLink1-2, #voidLink1-2, #darkLink1-2{
     background-color: #FFFAD0;
     height: 3px;
     width: 250px;
@@ -26,7 +26,7 @@
     position: relative;
     top: 110px;  
 }
-#silence2, #void2{
+#silence2, #void2, #dark2{
     position: absolute;
     background-color: #FFFAD0;
     width: 87px;
@@ -39,7 +39,7 @@
     background-size: 100%;
     border: 11px solid #FFFAD0;
 }
-#silenceLink2-3, #voidLink2-3{
+#silenceLink2-3, #voidLink2-3, #darkLink2-3{
     background-color: #FFFAD0;
     height: 3px;
     width: 150px;
@@ -47,7 +47,7 @@
     top: 180px;
     left: 75px;
 }
-#silence3, #void3{
+#silence3, #void3, #dark3{
     position: absolute;
     background-color: #FFFAD0;
     width: 87px;
@@ -88,6 +88,33 @@
     width: 250px;
     top: 170px;
     transform: rotate(-5deg);
+}
+
+#dark{
+    top: 200px;
+}
+#dark h3{
+    left: 400px;
+    top: 75px;
+}
+#dark2{
+    top: 35px;
+    left: 250px;
+}
+#dark3{
+    top: -50px;
+    left: 500px;
+}
+#darkLink1-2{
+    transform: rotate(-5deg);
+    top: 45px;
+    left: 20px;
+}
+#darkLink2-3{
+    top: -10px;
+    transform: rotate(-20deg);
+    width: 250px;
+    left: 300px;
 }
 
 @keyframes onHover{
