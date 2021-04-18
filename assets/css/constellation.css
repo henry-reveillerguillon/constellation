@@ -1,4 +1,4 @@
-#silence, #void, #dark, #absence{
+#silence, #void, #dark, #absence, #team{
     position: relative;
     left: 5vw;
 }
@@ -7,7 +7,7 @@
     left: 150px;
     top: 100px;
 }
-#silence1, #void1, #dark1, #absence1{
+#silence1, #void1, #dark1, #absence1, #about1{
     position: absolute;
     width: 87px;
     height: 87px;
@@ -18,7 +18,7 @@
     background-size: 100%;
     border: 11px solid #FFFAD0;
 }
-#silenceLink1-2, #voidLink1-2, #darkLink1-2, #absenceLink1-2{
+#silenceLink1-2, #voidLink1-2, #darkLink1-2, #absenceLink1-2, #aboutLink1-2, #aboutLink2-3, #aboutLink3-4, #aboutLink3-5, #aboutLink5-6{
     background-color: #FFFAD0;
     height: 3px;
     width: 250px;
@@ -26,7 +26,7 @@
     position: relative;
     top: 110px;  
 }
-#silence2, #void2, #dark2, #absence2{
+#silence2, #void2, #dark2, #absence2, #about2{
     position: absolute;
     background-color: #FFFAD0;
     width: 87px;
@@ -47,7 +47,7 @@
     top: 180px;
     left: 75px;
 }
-#silence3, #void3, #dark3, #absence3{
+#silence3, #void3, #dark3, #absence3, #about3, #about4, #about5, #about6{
     position: absolute;
     background-color: #FFFAD0;
     width: 87px;
@@ -148,6 +148,94 @@
 #absenceLink1-2{
     transform: rotate(-45deg);
     left: 150px;
+}
+
+#about1{
+    top: 50px;
+    left: 570px;;
+}
+#max1{
+    position: relative;
+    top: 75px;
+    left: -850px;
+    text-align: right;
+}
+#aboutLink1-2{
+    transform: rotate(90deg);
+    width: 150px;
+    top: -200px;
+    left: 540px;
+}
+#about2{
+    top: 200px;
+    left: 570px;
+}
+#hen{
+    position: relative;
+    top: 175px;
+    left: 685px;
+}
+#aboutLink2-3{
+    transform: rotate(90deg);
+    width: 150px;
+    top: -50px;
+    left: 540px;
+}
+#about3{
+    left: 570px;
+    top: 350px;
+}
+#pau{
+    position: relative;
+    top: 265px;
+    left: -850px;
+    text-align: right;
+}
+#aboutLink3-4{
+    transform: rotate(-55deg);
+    width: 150px;
+    top: 150px;
+    left: 475px;
+}
+#about4{
+    left: 470px;
+    top: 500px;
+}
+#aly{
+    position: relative;
+    top: 350px;
+    left: 575px;
+}
+#aboutLink3-5{
+    transform: rotate(25deg);
+    width: 200px;
+    top: 83px;
+    left: 625px;
+}
+#about5{
+    left: 770px;
+    top: 425px;
+}
+#max2{
+    position: relative;
+    top: 225px;
+    left: -640px;
+    text-align: right;
+}
+#aboutLink5-6{
+    transform: rotate(20deg);
+    width: 200px;
+    top: 140px;
+    left: 800px;
+}
+#about6{
+    left: 950px;
+    top: 475px;
+}
+#sam{
+    position: relative;
+    top: 220px;
+    left: 1050px;
 }
 
 @keyframes onHover{
