@@ -36,7 +36,7 @@
     top: 175px;
     background-image: url('../img/silence2.jpg');
     background-position: center;
-    background-size: 100%;
+    background-size: 200%;
     border: 11px solid #FFFAD0;
 }
 #silenceLink2-3, #voidLink2-3, #darkLink2-3, #absenceLink2-3{
@@ -57,7 +57,7 @@
     top: 175px;
     background-image: url('../img/silence3.jpg');
     background-position: center;
-    background-size: 100%;
+    background-size: 150%;
     border: 11px solid #FFFAD0;
 }
 .bubbles div:hover{
@@ -71,6 +71,7 @@
 #void1{
     left: 750px;
     background-image: url('../img/void1.jpg');
+    background-size: 150%;
 }
 #void2{
     left: 950px;
@@ -135,12 +136,14 @@
 #absence1{
     left: 300px;
     background-image: url('../img/absence1.jpg');
+    background-size: 175%;
 }
 #absence2{
     background-image: url('../img/absence2.jpeg');
 }
 #absence3{
-    background-image: url('../img/absence3.jpg');
+    background-image: url('../img/absence3.png');
+    background-size: 140%;
 }
 #absenceLink1-2{
     transform: rotate(-45deg);
