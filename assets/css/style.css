@@ -25,3 +25,25 @@ p {
     position: absolute;
     bottom: -300px;
 }
+
+.form-group {
+    margin-bottom: 50px;
+}
+
+.formSend {
+    background-color: #FFFAD0;
+    color: #251738;
+    width: 200px;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 30px;
+}
+
+select, option {
+    font-family: 'Bebas Neue', cursive;
+}
+
+select#topic {
+    width: 200px;
+}
