@@ -55,6 +55,7 @@
     color: #251738;
     border-radius: 40px;
     height: 250px;
+    cursor: pointer;
 }
 
 #similarMiddle {
@@ -63,4 +64,9 @@
 
 .similarTitre {
     font-size: 50px;
+}
+
+.similarImg {
+    max-width: 90%;
+    max-height: 55%;
 }
