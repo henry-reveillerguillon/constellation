@@ -70,6 +70,7 @@
 }
 #void1{
     left: 750px;
+    background-image: url('../img/void1.jpg');
 }
 #void2{
     left: 950px;
@@ -78,6 +79,7 @@
 #void3{
     left: 1200px;
     top: 150px;
+    background-image: url('../img/void3.jpg');
 }
 #voidLink1-2{
     left: 750px;
@@ -97,6 +99,9 @@
 #dark h3{
     left: 400px;
     top: 75px;
+}
+#dark1{
+    background-image: url('../img/dark1.jpg');
 }
 #dark2{
     top: 35px;
@@ -129,6 +134,10 @@
 }
 #absence1{
     left: 300px;
+    background-image: url('../img/absence1.jpg');
+}
+#absence2{
+    background-image: url('../img/absence2.jpeg');
 }
 #absence3{
     background-image: url('../img/absence3.jpg');
