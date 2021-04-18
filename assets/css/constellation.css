@@ -150,9 +150,19 @@
     left: 150px;
 }
 
+/* 
+///////////////
+//////////////
+/// ABOUT /// 
+////////////
+///////////
+*/
+
 #about1{
     top: 50px;
     left: 570px;;
+    background-image: url('../img/max.jpg');
+    background-size: 100%;
 }
 #max1{
     position: relative;
@@ -169,6 +179,8 @@
 #about2{
     top: 200px;
     left: 570px;
+    background-image: url('../img/hen.jpg');
+    background-size: 100%;
 }
 #hen{
     position: relative;
@@ -184,6 +196,8 @@
 #about3{
     left: 570px;
     top: 350px;
+    background-image: url('../img/pau.jpg');
+    background-size: 100%;
 }
 #pau{
     position: relative;
@@ -200,6 +214,8 @@
 #about4{
     left: 470px;
     top: 500px;
+    background-image: url('../img/aly.jfif');
+    background-size: 100%;
 }
 #aly{
     position: relative;
@@ -215,6 +231,8 @@
 #about5{
     left: 770px;
     top: 425px;
+    background-image: url('../img/max2.jpg');
+    background-size: 100%;
 }
 #max2{
     position: relative;
@@ -231,6 +249,8 @@
 #about6{
     left: 950px;
     top: 475px;
+    background-image: url('../img/sam.jpg');
+    background-size: 100%;
 }
 #sam{
     position: relative;
